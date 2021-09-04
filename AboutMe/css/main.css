@@ -1,0 +1,32 @@
+body {
+    margin: 0em 0em;
+    background: #2b2b2b
+}
+
+.topbar {
+    background: #3f4a57;
+    height: 3em;
+    width: 100%;
+    display: flex;
+}
+
+.topbutton{
+    color: white;
+    background: #3f4a57;
+    font-style: normal;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0.45em 0;
+
+    padding: auto;
+
+    flex-grow: 1; /*distributes the space in the box as long as theres enough space. numbers indicated the size ratio in between each*/
+    flex-shrink: 1; /*rate of shrinkage when there isnt enough space. 0 means no shrink*/
+    flex-basis: 100px; /*minimum width*/
+}
+
+.topbutton:hover{
+    background: #536375;
+}
