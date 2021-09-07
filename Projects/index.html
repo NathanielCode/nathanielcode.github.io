@@ -4,9 +4,156 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
     <title>Nathaniel Cho</title>
 </head>
 <body>
-    <h2>im working on it</h2>
+    <div class="topbar">
+        <a href="../index.html" class="topbutton">About</a>
+        <a href="../Skills/index.html" class="topbutton">Skills</a>
+        <a href="../WorkExperiences/index.html" class="topbutton">Work Experiences</a>
+        <a href="#" class="topbutton">Projects</a>
+    </div>
+
+    <div class="mainbody">
+        <div class="project">
+            <h1 class="project-name">"Unsavable" Unity Game</h1>
+            <h2 class="date">July 2018 - May 2019</h2>
+            <section class="description">
+                <img src="./Files/Unsavable-screenshot1.png" alt="A picture of my game" id="unsavable-screenshot1">
+                <p> I had the opportunity to play Undertale by Toby Fox around this time and was greatly inspired by what he made. So I decided to make my own version using Unity.
+                Unsavable is an rpg with its own story, cutscenes, interractive block puzzles, mazes, teleportors, and bullet-hell battles.
+                This was also my first time using Unity so every system implemented required a decent amount of research and testing to be constructed. Below is a list of some of the features 
+                I was able to implement into the game.
+                </p>
+
+                <ul>
+                    <li>Cutscenes: I created a customizable script that allowed me to create every cutscene in the game. The script performs a sequence of commands which I can customize 
+                        to create a cutscene. Examples of commands include npc movement, camera movement, music change, sound effects, dialogue, animations, object teleportors, etc. 
+                        By properly sequencing these commands, I was able to create numerous cutscences for the game.
+                    </li>
+
+                    <li>
+                        Battles: This functions similarly to cutscenes as it also performs a sequence of commands (bullet hell, dialogue, and typerracer) which I can customize to create 
+                        any battle. You can also customize how each bullet-hell sequence would play out by positioning obstacles and setting timers. For the typerracer, you can type out using 
+                        any key on the keyboard and set the timer and it would work perfectly (of course it took a while to make the typerracer system itself).
+                    </li>
+
+                    <li>
+                        Interactive Objects: There are several objects that could be interacted to give dialogue. The special ones are those that move a pile of books or slides a chair until 
+                        it collides with something. The books and chairs had various bugs that required fixing such as players could move multiple books at once, books could glitch during 
+                        movement making it unaligned, chairs pushing players into the wall, etc.
+                    </li>
+
+                    <li>
+                        Menu: A menu system that allowed you to save the game in a file on your computer so you could continue from where you left off. You could also reset the game, 
+                        allowing you to play through the story the game again.
+                    </li>
+
+                    <li>
+                        Music: All the music in the game was amateurishly written in MuseScore by me. Usually it took several days for me to create a piece I'm satisfied with but because of my piano
+                        background, I think most pieces defaulted to using the piano. I'm not too sure what genres I've covered but the songs were made to match the mood of the situation or the
+                        character's personality.
+                    </li>
+
+                    <li>
+                        Art: All the art (except the font) is also amateurishly created by me in photoshop and paint. Due to my lack of experience in art, I defaulted to pixel art to draw 
+                        my characters pixel by pixel using the mouse. I also did this because Undertale had a similar artstyle.
+                    </li>
+                </ul>
+
+                <p>At the end of the school year, I proudly shared my 3 hour long game to all my collegues at school who all thoroughly enjoyed it.</p>
+
+                <br>
+
+                <ul>
+                    <li class="links">
+                        A Blog Documenting the Game's Development: <a href="https://nathanielcode.wordpress.com/">https://nathanielcode.wordpress.com/</a>
+                    </li>
+                    <li class="links">
+                        Download the Game: <a href="https://github.com/NathanielCode/UnsavableActualGame">https://github.com/NathanielCode/UnsavableActualGame</a>
+                    </li>
+                    <li class="links">
+                        Source Code: <a href="https://github.com/NathanielCode/Unsavable">https://github.com/NathanielCode/Unsavable</a>
+                    </li>
+                    <li class="links">
+                        Demo Videos: 
+                        <ul>
+                            <li class="links">
+                                Doorman Cutscene: <a href="https://www.youtube.com/watch?v=7TUi4a2rkHI">https://www.youtube.com/watch?v=7TUi4a2rkHI</a>
+                            </li>
+                            <li class="links">
+                                Battle: <a href="https://www.youtube.com/watch?v=RGcWGf-zE6w">https://www.youtube.com/watch?v=RGcWGf-zE6w</a>
+                            </li>
+                            <li class="links">
+                                Illumi Cutscene: <a href="https://www.youtube.com/watch?v=seOvWQ-z698">https://www.youtube.com/watch?v=seOvWQ-z698</a>
+                            </li>
+                            <li class="links">
+                                Block Moving Puzzle: <a href="https://www.youtube.com/watch?v=WR0xSpZomdY">https://www.youtube.com/watch?v=WR0xSpZomdY</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="project">
+            <h1 class="project-name">"Recursive TicTacToe" Unity Game</h1>
+            <h2 class="date">December 2020 - January 2021</h2>
+            <section class="description">
+                <img src="./Files/TicTacToe-screenshot1.png" alt="A picture of my game" id="tictactoe-screenshot1">
+                <p> 
+                    Back in highschool, my friends and I sometimes played a 2 layered TicTacToe game wrongfully named "2D TicTacToe". It was one big TicTacToe and each box, another
+                    smaller TicTacToe. The idea is that if you place your X/O in for example the center square of the smaller TicTacToe, then your opponent has to play their next move
+                    in the center of the bigger TicTacToe (In blue as shown). When you win a smaller TicTacToe, that entire square becomes yours. To win the game, you have to have 3
+                    of your X/O in a row in the bigger TicTacToe, just like usual TicTacToe.
+                </p>
+
+                <p>
+                    We often joked about how "3D" TicTacToe would look like but after some courses about algorithms and recursion from university, I realized I could generalize the rules
+                    of the game for "n-D" TicTacToe. So I spent a couple hours explaining it how it would work to my friends and we collaborated to create this game. Here are some of the
+                    features of the game.
+                </p>
+
+                <img src="./Files/TicTacToe-screenshot2.png" alt="A picture of my game" id="tictactoe-screenshot2">
+
+                <ul>
+                    <li>
+                        Generation: The TicTacToe boxes are recursively generated based on how many layers you put as the argument. Theoretically, you can put any number in it 
+                        but practically, the limit is 4 layers because our computers takes a while to create 9^5 = 59049 boxes.
+                    </li>
+
+                    <li>
+                        Rules: After every player move, the script checks if the move wins them the smallest box by checking if there are 3 symbols in a row. If the player's move wins them
+                        a box, the script will recursively check if the win causes the the player to also win the upper layer of TicTacToe. This process repeats until there are no wins
+                        or it recurses to the largest TicTacToe layer.
+                    </li>
+
+                    <li> 
+                        Player Moves: There's a turn based system that allows the player to place their symbol in any of the highlighted squares. While hovering, it also highlights the square
+                        the opponent will have to play in on their next turn.
+                    </li>
+
+                    <li>
+                        Server: After the singeplayer game was done, I took it upon myself to transform it into a multiplayer game using TCP. I created a server tha can host a main lobby
+                        where players can create game lobbies, set up the number of layers and face each other. Every action sends a message to my server where it updates the game/lobby
+                        state and sends the info to other players to also update their game/lobby state.
+                    </li>
+                </ul>
+
+                <p>Afterwards, my friends and I were able to enjoy a couple games of 2D TicTacToe online before we realized that we aren't smart enough to play such an intellectual game.</p>
+
+                <br>
+
+                <ul>
+                    <li class="links">
+                        Download the Game (I have to be running the server though): <a href="https://github.com/NathanielCode/RecursiveTicTacToe">https://github.com/NathanielCode/RecursiveTicTacToe</a>
+                    </li>
+                    <li class="links">
+                        Demo Video: <a href="https://youtu.be/YvRLgp71jd0">https://youtu.be/YvRLgp71jd0</a>
+                </ul>
+            </section>
+        </div>
+    </div>
 </body>
 </html>

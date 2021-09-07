@@ -52,7 +52,10 @@ body:before {
 }
 
 .mainbody{
-    margin: 10em 15%;
+    position: absolute;
+    padding: 10em 15%;
+    width: 70%;
+    height: 40em;
 }
 
 .languages-list {

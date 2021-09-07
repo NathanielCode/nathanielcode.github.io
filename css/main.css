@@ -51,12 +51,15 @@ body:before {
 }
 
 .mainbody{
-    margin: 10em 15%;
+    position: absolute;
+    padding: 10em 15%;
+    width: 70%;
+    height: 55em;
 }
 
 .my-name {
     font-size: 5em;
-    margin-bottom: 0em;
+    margin: 0em;
 }
 
 .title-subsection {
@@ -80,8 +83,8 @@ body:before {
 }
 
 .socials-list {
-    margin-top: 0;
     margin-top: 4em;
+    margin-bottom: 4em;
     padding: 0;
     display: flex;
     position: absolute;
