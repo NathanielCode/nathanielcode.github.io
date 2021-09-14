@@ -27,6 +27,7 @@ body:before {
     height: 3em;
     width: 100%;
     display: flex;
+    align-items: center;
 }
 
 .topbutton{
@@ -54,7 +55,7 @@ body:before {
     position: absolute;
     padding: 10em 15%;
     width: 70%;
-    height: 55em;
+    height: 60em;
 }
 
 .my-name {
@@ -141,5 +142,35 @@ body:before {
     text-align: center;
     margin-top: 0;
     font-size: -0.9em;
+}
+
+@media (max-width: 780px) {
+    .topbar {
+        height: 5em;
+    }
+
+    .my-name {
+        font-size: 3em;
+    }
+    
+}
+
+@media (max-width: 425px) {
+    .topbutton {
+        font-size: 1em;
+    }
+
+    .socials-list .socials-list-item .socials-link{
+        position: relative;
+        display: block;
+        text-align: center;
+        background: #525252;
+        font-size: 2em;
+        color: white;
+        border-radius: 50%;
+        width: 2em;
+        height: 2em;
+        transition: 0.3s;
+    }
 }
 

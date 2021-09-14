@@ -5,6 +5,7 @@ body {
     font-family: sans-serif;
     color: white;
     position: relative;
+    width: 100%;
 }
 
 body:before {
@@ -27,6 +28,7 @@ body:before {
     height: 3em;
     width: 100%;
     display: flex;
+    align-items: center;
 }
 
 .topbutton{
@@ -54,7 +56,7 @@ body:before {
     position: absolute;
     padding: 10em 15%;
     width: 70%;
-    height: 180em;
+    height: 205em;
 }
 
 .project {
@@ -117,6 +119,59 @@ body:before {
     margin-left: 1em;
     margin-bottom: 1em;
 }
+
+@media (max-width: 774px) {
+    .topbar {
+        height: 5em;
+    }
+
+    #unsavable-screenshot1 {
+        float: none;
+        margin-left: 0em;
+        margin-bottom: 0em;
+        width: 100%;
+    }
+
+    #tictactoe-screenshot1 {
+        float: none;
+        margin-left: 0em;
+        margin-bottom: 0em;
+        width: 100%;
+    }
+
+    #tictactoe-screenshot2 {
+        float: none;
+        margin-left: 0em;
+        margin-bottom: 0em;
+        width: 100%;
+    }
+
+    .description > ul{
+        overflow-wrap: break-word;
+        padding-left: 0;
+    }
+
+    .mainbody{
+        padding: 10em 10%;
+        width: 80%;
+    }
+}
+
+@media (max-width: 425px) {
+    .topbutton {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 375px) {
+    .project-name {
+        font-size: 2.5em;
+    }
+}
+
+
+
+
 
 
 
