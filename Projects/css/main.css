@@ -54,9 +54,9 @@ body:before {
 
 .mainbody{
     position: absolute;
-    padding: 10em 15%;
+    padding: 10em 15% 0 15%;
     width: 70%;
-    height: 205em;
+    height: 215em;
 }
 
 .project {
