@@ -80,12 +80,22 @@ body:before {
 
 .languages-list .language .language-icon{
     display: block;
+    text-align: center;
     width: 3em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .languages-list .language .language-name {
     margin-top: -0.5em;
     font-size: 0.8em;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#django-logo{
+    filter: brightness(230%);
 }
 
 @media (max-width: 1097px) {
